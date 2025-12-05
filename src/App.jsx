@@ -1,0 +1,16 @@
+// src/App.jsx
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home.jsx";
+import CategoryPage from "./pages/CategoryPage.jsx";
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/category/:slug" element={<CategoryPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
