@@ -32,7 +32,7 @@ export default function TopBar({
                 shadow-sm
               "
             >
-              QC
+              FB
             </span>
             <div className="leading-tight">
               <span className="font-semibold text-[17px] text-slate-900 tracking-tight">

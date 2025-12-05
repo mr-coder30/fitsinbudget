@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#c7cbfc]">
       <TopBar
-        title="QuickCart"
+        title="Budget Fits"
         searchOpen={searchOpen}
         onToggleSearch={() => setSearchOpen((v) => !v)}
         searchTerm={searchTerm}
